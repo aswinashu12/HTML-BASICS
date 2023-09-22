@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table,th,td{
+        border: 2px solid black;
+        text-align: center;
+        padding: 1px;
+        border-collapse: collapse;
+    }
+    td:hover{
+        background-color: crimson;
+    }
+    th:hover{
+        background-color: deepskyblue;
+    }
+</style>    
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="5">Seminar</th>
+        </tr>
+        <tr>    
+            <th colspan="2">Schedule</th>
+            <th rowspan="2", colspan="3">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Monday</th>
+            <td rowspan="2" style="background-color: rgb(248, 197, 66);">8:00 a.m</td>
+            <td rowspan="2" style="background-color: rgb(125, 76, 148);">5:00 p.m</td>
+            <td>Introductiuon to Xml</td>
+        </tr>
+        <tr>
+            <td>Validity:DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Tuesday</th>
+            <td style="background-color: rgb(248, 197, 66);;">8:00 a.m</td>
+            <td style="background-color: rgb(248, 197, 66);">11:00 a.m</td>
+            <td rowspan="2">Xpath</td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(248, 197, 66);">11:00 a.m</td>
+            <td style="background-color: green;">2:00 p.m</td>
+        </tr>
+        <tr>
+            <td style="background-color: green;">2:00 p.m</td>
+            <td style="background-color: rgb(125, 76, 148);">5:00 p.m</td>
+            <td >XSL Transformation</td>    
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td style="background-color:rgb(248, 197, 66);">8:00 a.m</td>
+            <td style="background-color: green;">12:00 p.m</td>
+            <td>XSL formatting Objects</td>
+        </tr>        
+</body>
+</html>
