@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pers details</title>
+ <style>
+    body{
+        background-color: rgb(222, 226, 231);
+    }
+    h2{
+        color: rgb(21, 164, 207);
+    }
+    form{
+        text-align: center;
+    }
+    select:hover{
+        background-color: thistle;
+    }
+    input:hover{
+        background-color: rgb(33, 167, 167);
+    }
+ </style>   
+</head>
+<body>
+    <h2 style="text-align: center;">Personal Details</h2>
+    <form>
+        <label for="name" >Name:</label>
+        <input type="text" id="name" name="Name"><br><br>
+        <label for="password" >Password</label>
+        <input type="password" id="pswd" name="pswd"><br><br>
+        <label for="email-id" >Email-id</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="gender"> Gender:  </label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender" >Female</label><br><br>
+    </form>    
+        <h2 style="text-align: center;">Educational qualification</h2>
+    <form>
+        <label for="degree">Degree</label>
+        <select name="degree" id="degree">
+            <option value="--select group--">--select group--</option>
+            <option value="Jsw college">Jsw college</option>
+            <option value="LLM college">LLM college</option>
+        </select><br><br>    
+        <label for="engineering">Engineering</label>
+        <select name="degree" id="degree">
+            <option value="group--">--select group--</option>
+            <option value="group--">CS</option>
+            <option value="group--">EC</option>
+            <option value="group--">CE</option>
+        </select><br><br>
+        <label for="hobbies" >hobbies: </label>
+        <input type="radio" id="hobbies" name="hobbies">
+        <label for="hobbies"> playing chess</label>
+        <input type="radio" id="hobbies" name="hobbies">
+        <label for="hobbies" >Reading books</label><br><br>
+        <h2 style="text-align: center;">Address</h2>
+        <label for="txtbx"></label>
+        <textarea name="txtbx" rows="10" cols="120">
+        </textarea><br><br>
+        <label for="attch resume">Attach resume</label>
+        <input type="file" id="resume" name="resume"><br><br><br>
+        <input type="submit" style="background-color: chocolate;" size="20">
+
+
+</body>
+</html>
